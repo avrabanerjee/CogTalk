@@ -73,6 +73,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Images\waiting.gif" />
+    <Content Include="Vendor\angular\angular-animate.js" />
+    <Content Include="Vendor\angular\angular-route.js" />
+    <Content Include="Vendor\angular\angular.js" />
+    <Content Include="Vendor\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="Vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="Vendor\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="Vendor\bootstrap\js\npm.js" />
+    <Content Include="Vendor\fontawesome\css\font-awesome.css" />
+    <Content Include="Vendor\fontawesome\fonts\fontawesome-webfont.svg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -84,6 +95,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Vendor\bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="Vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Vendor\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Vendor\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Vendor\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Vendor\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Vendor\fontawesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Vendor\fontawesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Vendor\fontawesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Vendor\fontawesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Vendor\fontawesome\fonts\FontAwesome.otf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -92,6 +114,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App\" />
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
   </ItemGroup>
