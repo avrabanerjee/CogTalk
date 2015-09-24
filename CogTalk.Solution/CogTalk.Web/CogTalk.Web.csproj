@@ -72,11 +72,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\Configurations\appConfig.js" />
+    <Content Include="App\Configurations\routeConfig.js" />
+    <Content Include="App\default.html" />
+    <Content Include="App\Layout\ctrShell.js" />
+    <Content Include="App\Layout\shell.html" />
+    <Content Include="App\Layout\topNav.html" />
+    <Content Include="App\modMain.js" />
     <Content Include="Global.asax" />
     <Content Include="Images\waiting.gif" />
+    <Content Include="index.html" />
+    <Content Include="Styles\site.css" />
     <Content Include="Vendor\angular\angular-animate.js" />
+    <Content Include="Vendor\angular\angular-resource.js" />
     <Content Include="Vendor\angular\angular-route.js" />
     <Content Include="Vendor\angular\angular.js" />
+    <Content Include="Vendor\bootstrap\css\bootstrap-theme-cerulean.css" />
     <Content Include="Vendor\bootstrap\css\bootstrap-theme.css" />
     <Content Include="Vendor\bootstrap\css\bootstrap.css" />
     <Content Include="Vendor\bootstrap\fonts\glyphicons-halflings-regular.svg" />
@@ -84,6 +95,8 @@
     <Content Include="Vendor\bootstrap\js\npm.js" />
     <Content Include="Vendor\fontawesome\css\font-awesome.css" />
     <Content Include="Vendor\fontawesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Vendor\jquery-2.1.4.js" />
+    <Content Include="Vendor\jquery-ui-1.11.4.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -114,7 +127,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App\" />
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
   </ItemGroup>
