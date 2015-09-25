@@ -1,0 +1,14 @@
+C:\Avra\zMyWorkspace\Git_Repository\CogTalk\CogTalk.Solution\CogTalk.Web\bin\CogTalk.Web.dll.config
+C:\Avra\zMyWorkspace\Git_Repository\CogTalk\CogTalk.Solution\CogTalk.Web\bin\CogTalk.Web.dll
+C:\Avra\zMyWorkspace\Git_Repository\CogTalk\CogTalk.Solution\CogTalk.Web\bin\CogTalk.Web.pdb
+C:\Avra\zMyWorkspace\Git_Repository\CogTalk\CogTalk.Solution\CogTalk.Web\bin\Newtonsoft.Json.dll
+C:\Avra\zMyWorkspace\Git_Repository\CogTalk\CogTalk.Solution\CogTalk.Web\bin\System.Net.Http.Formatting.dll
+C:\Avra\zMyWorkspace\Git_Repository\CogTalk\CogTalk.Solution\CogTalk.Web\bin\System.Web.Http.dll
+C:\Avra\zMyWorkspace\Git_Repository\CogTalk\CogTalk.Solution\CogTalk.Web\bin\System.Web.Http.WebHost.dll
+C:\Avra\zMyWorkspace\Git_Repository\CogTalk\CogTalk.Solution\CogTalk.Web\bin\Newtonsoft.Json.xml
+C:\Avra\zMyWorkspace\Git_Repository\CogTalk\CogTalk.Solution\CogTalk.Web\bin\System.Net.Http.Formatting.xml
+C:\Avra\zMyWorkspace\Git_Repository\CogTalk\CogTalk.Solution\CogTalk.Web\bin\System.Web.Http.xml
+C:\Avra\zMyWorkspace\Git_Repository\CogTalk\CogTalk.Solution\CogTalk.Web\bin\System.Web.Http.WebHost.xml
+C:\Avra\zMyWorkspace\Git_Repository\CogTalk\CogTalk.Solution\CogTalk.Web\obj\Debug\CogTalk.Web.csprojResolveAssemblyReference.cache
+C:\Avra\zMyWorkspace\Git_Repository\CogTalk\CogTalk.Solution\CogTalk.Web\obj\Debug\CogTalk.Web.dll
+C:\Avra\zMyWorkspace\Git_Repository\CogTalk\CogTalk.Solution\CogTalk.Web\obj\Debug\CogTalk.Web.pdb

@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="modMain">
+<head>
+    <style>
+        /* This helps the ng-show/ng-hide animations start at the right place. */
+        /* Since Angular has this but needs to load, this gives us the class early. */
+        .ng-hide {
+            display: none !important;
+        }
+    </style>
+    <title data-ng-bind="title">CogTalk - The simplest way to talk in the cloud</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+
+
+    <!--Load Vendor Stylesheets (CSS)-->
+    <!--------------------------------------------------------------------->
+    <link href="/Vendor/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="/Vendor/fontawesome/css/font-awesome.css" rel="stylesheet" />    
+
+
+    <!--Load Theme Stylesheet(s)-->
+    <!--------------------------------------------------------------------->    
+    <link href="/Vendor/bootstrap/css/bootstrap-theme-cerulean.css" rel="stylesheet" />
+    
+
+    <!--Load Application Stylesheet(s)-->
+    <!--------------------------------------------------------------------->    
+    <link href="/Styles/site.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!--Load the Application Layout View-->
+    <div ng-include="'/App/Layout/shell.html'"></div>
+
+
+    <!--Show Splash Screen-->
+    <div id="splash-page" data-ng-show="false">
+        <div class="page-splash">
+            <div class="page-splash-message">
+                CogTalk loading....
+            </div>
+            <div class="progress progress-striped active page-progress-bar">
+                <div class="progress-bar" role="progressbar" style="width: 100%"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--Load JavaScripts (JS)-->
+    <!------------------------------------------------------------------------------->
+    <!-- JQuery Scripts-->
+    <script src="/Vendor/jquery-2.1.4.js"></script>
+    <script src="/Vendor/jquery-ui-1.11.4.js"></script>
+
+    <!-- Angular Scripts-->
+    <script src="/Vendor/angular/angular.js"></script>
+    <script src="/Vendor/angular/angular-route.js"></script>
+    <script src="/Vendor/angular/angular-resource.js"></script>
+    <script src="/Vendor/angular/angular-animate.js"></script>
+
+    <!-- Bootstrap Scripts -->
+    <script src="/Vendor/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Utility Scripts -->
+    <!-- INSERT HERE -->
+    <!--App Modules-->
+    <script src="/App/modMain.js"></script>
+
+    <!--App Configs-->
+    <script src="/App/Configurations/routeConfig.js"></script>
+    <script src="/App/Configurations/appConfig.js"></script>
+
+    <!--App Services -->
+    <!-- INSERT HERE -->
+    <!--App Directives -->
+    <!-- INSERT HERE -->
+
+
+    <!--App Controllers -->
+    <script src="/App/Layout/ctrShell.js"></script>
+    <!-- INSERT MORE HERE -->
+    <!------------------------------------------------------------------------------->
+</body>
+</html>
